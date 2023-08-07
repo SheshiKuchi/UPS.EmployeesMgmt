@@ -1,0 +1,40 @@
+﻿<Window x:Class="UPS.EmployeesMgmt.AddEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UPS.EmployeesMgmt"
+        mc:Ignorable="d"
+        Title="Add Employee" Height="300" Width="600" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140*"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"></ColumnDefinition>
+            <ColumnDefinition Width="150*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="LblEditTitle" Content="Edit Employee" HorizontalAlignment="Left" FontSize="20" FontWeight="Bold"
+               Grid.Column="0" Grid.ColumnSpan="2" Width="150" Height="35" VerticalAlignment="Top"></Label>
+
+        <Label x:Name="LblAddEmpId" Content="Emp Id" HorizontalAlignment="Right" Margin="0,40,10,133" Height="25"></Label>
+        <Label x:Name="LblAddName" Content="Name" HorizontalAlignment="Right" Margin="0,70,15,103" Height="25"/>
+        <Label Content="Email" HorizontalAlignment="Right" Margin="0,99,17,74" Height="25" RenderTransformOrigin="0.489,1.903"/>
+        <Label Content="Gender" HorizontalAlignment="Right" Margin="0,129,3,44" Height="25" RenderTransformOrigin="0.489,1.903"/>
+        <Label Content="Status" HorizontalAlignment="Right" Margin="0,159,3,14" Height="25" RenderTransformOrigin="0.489,1.903"/>
+        <TextBox x:Name="TxtBxAddEmpId" Grid.Column="1" HorizontalAlignment="Left" Margin="10,47,0,0" TextChanged="TxtBxAddEmpId_TextChanged" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22"  Text=""/>
+        <TextBox x:Name="TxtBxAddEmpName" Grid.Column="1" HorizontalAlignment="Left" Margin="10,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="22" />
+        <TextBox x:Name="TxtBxAddEmail" Grid.Column="1" HorizontalAlignment="Left" Margin="10,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="22" />
+        <TextBox x:Name="TxtBxAddGender" Grid.Column="1" HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22" />
+        <TextBox x:Name="TxtBxAddStatus" Grid.Column="1" HorizontalAlignment="Left" Margin="10,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="22" />
+        <Button x:Name="BtnAddEmp" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Grid.Row="1" VerticalAlignment="Center" RenderTransformOrigin="-1.044,-0.072" Height="25" Width="52"  Content="Add" Click="BtnAddEmp_Click" />
+
+
+        <Button x:Name="BtnAddCancel" Grid.Column="1" HorizontalAlignment="Left" Margin="124,0,0,0" Grid.Row="1" VerticalAlignment="Center" RenderTransformOrigin="-1.044,-0.072" Height="25" Width="52" Content="Cancel" Click="BtnAddCancel_Click" />
+
+
+
+    </Grid>
+</Window>

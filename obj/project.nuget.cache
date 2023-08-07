@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "etzpK9VGf4ZIrkBR9gQFcYwCkQXdjLjAmXf3h9RnV15dXH9y9g+iD1RIelvT5S6ijkHRZlFBMNgtAO+Mr76MJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S00965\\source\\repos\\UPS.EmployeesMgmt\\UPS.EmployeesMgmt\\UPS.EmployeesMgmt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S00965\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\S00965\\.nuget\\packages\\microsoft.net.http.headers\\2.2.8\\microsoft.net.http.headers.2.2.8.nupkg.sha512",
+    "C:\\Users\\S00965\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\S00965\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\S00965\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\S00965\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
